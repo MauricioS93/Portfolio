@@ -100,8 +100,8 @@ button {
 }
 
 /* LANDING */
-.landing {
-  background: url("../FOTOS/header1.jpg");
+.landing, .top-container {
+  background: url("../photos/header1.jpg");
   background-size: cover;
   background-position: center;
   min-height: 400px;
