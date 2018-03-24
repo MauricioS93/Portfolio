@@ -33,17 +33,17 @@ body {
 
 .container {
   display: grid;
-  /* grid-gap: 20px; */
 }
 
 .titles {
   color: var(--colorLetters);
   text-transform: uppercase;
   margin-bottom: 0;
+  margin-left: 25px;
 }
 
 .wrapper {
-  margin: 30px 60px;
+  margin: 70px 60px;
 }
 
 #hr {
@@ -61,63 +61,51 @@ button {
 /* MAIN NAV */
 
 .main-nav ul {
-  /* position: fixed; */
+  display: flex;
+  position: fixed;
   width: 100%;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  padding: 0;
   list-style: none;
+  justify-content: space-around;
   margin: 0;
-  background: rgb(36, 24, 45);
-  height: 60px;
-  /* justify-items: center; */
+  height: 50px;
   align-items: center;
+  background: black;
 }
 
-.main-nav a {
-  background: var(--primary);
-  display: block;
-  padding: 0.6rem;
+.main-nav li a {
   text-decoration: none;
-  color: var(--colorlanding);
-  text-align: center;
-  box-shadow: var(--shadow);
-  text-transform: uppercase;
-  margin: 0 20px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .main-nav a:hover {
-  background: #413f3f;
-  color: rgb(204, 195, 195);
-}
-
-/* TOP CONTAINER*/
-
-.top-container {
-  display: grid;
-  grid-template-columns: 1fr;
+  color: blue;
 }
 
 /* LANDING */
-.landing, .top-container {
+.top-container {
   background: url("../photos/header1.jpg");
+  background-position-y: 1px;
   background-size: cover;
-  background-position: center;
-  min-height: 400px;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: center;
-  padding: 3rem;
   text-transform: uppercase;
-  /* margin-top: 60px; */
+  height: 100vh;
 }
 
 span {
   display: inline-block;
   border-top: 4px solid #b5b1b1;
   width: 105px;
+}
+
+.landing{
+  padding: 20px;
+  margin-left: 20px;
 }
 
 .landing h1 {
