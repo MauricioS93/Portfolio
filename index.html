@@ -3,7 +3,9 @@
 
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <link rel="stylesheet" href="./sources/styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
   <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   <title>MS Porfolio</title>
@@ -45,14 +47,14 @@
       <h2 class="titles">About Me</h2>
       <hr>
       <div class="info-me">
-        <img src="photos/header.jpg" alt="">
-        <div>
+        <img src="./sources/photos/header.jpg" alt="">
+        <div class="description">
           <h1>Mauricio Sarmiento</h1>
           <p>I am originally from Bolivia and actually living in Seattle, WA. I have a College Degree in Business Administration
             and a Master Degree in Strategic Management. I've always had a passion for computer science and now I've decided
             to pursue it and become a self-taught front-end and back-end developer.
+          </p>
         </div>
-        </p>
       </div>
     </section>
 
@@ -76,15 +78,23 @@
         </div>
         <div class="skill">
           <h3>mongoDB</h3>
-          <img src="photos/mongodb.png" alt="">
+          <img src="./sources/photos/mongodb.png" alt="">
         </div>
         <div class="skill">
           <h3>express</h3>
-          <img src="photos/express.png" alt="">
+          <img src="./sources/photos/express.png" alt="">
         </div>
         <div class="skill">
           <h3>Node.js</h3>
-          <img src="photos/nodejs.png" alt="">
+          <img src="./sources/photos/nodejs.png" alt="">
+        </div>
+        <div class="skill">
+          <h3>SemanticUI</h3>
+          <img class="semantic" src="./sources/photos/semanticui.png" alt="">
+        </div>
+        <div class="skill">
+          <h3>Bootstrap 3</h3>
+          <img src="./sources/photos/bootstrap.png" alt="">
         </div>
       </div>
     </section>
@@ -96,48 +106,54 @@
       <hr>
       <div class="boxes">
         <div class="box">
-          <img src="photos/webDevBlog.png">
+          <img src="./sources/photos/webDevBlog.png">
           <div class="item__overlay">
+            <p>HTML, CSS, JS, MongoDB, Express, NodeJS, SemanticUI, Other Frameworks</p>
             <a href="https://github.com/MauricioS93/WebDev-ResourcesApp" target="_blank">
               <button>WebDev App →</button>
             </a>
           </div>
         </div>
         <div class="box">
-          <img src="photos/Weather_App.png">
+          <img src="./sources/photos/Weather_App.png">
           <div class="item__overlay">
+            <p>HTML, CSS, JQUERY, API</p>
             <a href="https://weather-app-msarmiento.herokuapp.com/home.html" target="_blank">
               <button>Weather App →</button>
             </a>
           </div>
         </div>
         <div class="box">
-          <img src="photos/twitchTv.png">
+          <img src="./sources/photos/twitchTv.png">
           <div class="item__overlay">
+            <p>HTML, CSS, JQUERY, API</p>
             <a href="https://twitchtv-app-msarmiento.herokuapp.com/index.html" target="_blank">
               <button>TwitchTv →</button>
             </a>
           </div>
         </div>
         <div class="box">
-          <img src="photos/wikipedia_viewer.png">
+          <img src="./sources/photos/wikipedia_viewer.png">
           <div class="item__overlay">
+            <p>HTML, CSS, JQUERY, API</p>
             <a href="#" target="_blank">
               <button>Wikipedia Viewer →</button>
             </a>
           </div>
         </div>
         <div class="box">
-          <img src="photos/calculator.png" alt="">
+          <img src="./sources/photos/calculator.png" alt="">
           <div class="item__overlay">
+            <p>HTML, CSS, JS, API</p>
             <a href="https://codepen.io/Msarmiento/full/EEyLBW/" target="_blank">
               <button>Calculator →</button>
             </a>
           </div>
         </div>
         <div class="box">
-          <img src="photos/YelpCamp.png">
+          <img src="./sources/photos/YelpCamp.png">
           <div class="item__overlay">
+            <p>HTML, CSS, JS, MongoDB, Express, NodeJS, Bootstrap, Other Frameworks</p>
             <a href="https://thawing-headland-76882.herokuapp.com/" target="_blank">
               <button>YelpCamp App →</button>
             </a>
@@ -204,7 +220,7 @@
     </div>
     <!-- END CONTAINER -->
 
-
+  <script src="./sources/script/script.js"></script>
 </body>
 
 </html>
