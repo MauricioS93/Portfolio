@@ -4,7 +4,7 @@
 
 :root {
   --primary: rgb(36, 24, 45);
-  --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+  --shadow: 0 1px 5px rgba(85, 80, 80, 0.8);
   --background: rgba(75, 61, 109, 0.33);
   --colorLetters: #2c3e50;
   --colorlanding: #9d9d9d;
@@ -69,10 +69,12 @@ button {
   list-style: none;
   justify-content: space-around;
   margin: 0;
+  margin-left: 40px;
   padding: 0;
   height: 60px;
   align-items: center;
   background:black;
+  z-index: 50;
 }
 
 .main-nav ul li {
@@ -316,6 +318,7 @@ input, textarea{
     max-width: 75%;
     font-size: 20px;
     padding: 5px;
+    color: rgb(36, 35, 35);
 }
 
 input:focus, textarea:focus {
@@ -438,6 +441,10 @@ footer{
 @media (max-width: 650px){
   .main-nav li a {
     font-size: 18px;
+  }
+
+  .main-nav ul {
+    margin-left: 0;
   }
 
   .social-media {
